@@ -1697,7 +1697,7 @@ tile(Monitor *m)
 			h = (m->wh - ty - gappx * (r - 1)) / r;
 			resize(c, m->wx + mw + g, m->wy + ty, m->ww - mw - g - (2*c->bw), h - (2*c->bw), False);
 			if (ty + HEIGHT(c) < m->wh)
-				ty += HEIGHT(c) + gapx;
+				ty += HEIGHT(c) + gappx;
 		}
 }
 
